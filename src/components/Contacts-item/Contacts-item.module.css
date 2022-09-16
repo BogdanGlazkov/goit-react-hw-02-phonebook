@@ -1,0 +1,21 @@
+.item {
+    height: 40px;
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    transition: transform 500ms ease-in-out;
+}
+
+.focus {
+    transform: scale(1.02);
+}
+
+.name {
+    font-weight: bold;
+    min-width: 50%;
+    margin-right: 10px;
+}
+
+.contact-num {
+    margin-left: 10px;
+}

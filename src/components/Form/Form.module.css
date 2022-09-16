@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.label:focus,
+.input:focus {
+    outline: 2px solid darkgreen;
+}
