@@ -8,7 +8,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+
+    --primary-bg-color: lightgreen;
+    --accent-color: darkgreen;
+    --primary-text-color: black;
+    --secondary-text-color: gray;
+    --btn-color: whitesmoke;
+    ;
+
+    --transition: 300ms ease-in-out;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -45,7 +54,10 @@ h1 {
   text-align: center;
 }
 
-button, input {
+button {
   cursor: pointer;
+}
+
+button, input {
   border-radius: 2px;
 }

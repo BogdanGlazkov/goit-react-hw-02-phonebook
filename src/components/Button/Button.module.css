@@ -1,7 +1,7 @@
 .btn {
-  background-color: whitesmoke;
-  border: 1px solid black;
-  transition: box-shadow 500ms ease-in-out;
+  background-color: var(--btn-color);
+  border: 1px solid var(--accent-color);
+  transition: box-shadow var(--transition);
 }
 
 .dlt {
@@ -12,7 +12,7 @@
 
 .btn:hover,
 .dlt:hover {
-    box-shadow: -1px 1px 10px 7px rgba(103, 37, 165, 0.5);
+    box-shadow: -1px 1px 10px 7px rgba(103, 37, 165, 0.3);
 }
 
 .sbmt {
@@ -20,5 +20,5 @@
 }
 
 .sbmt:hover {
-    box-shadow: -1px 1px 10px 7px rgba(247, 150, 150, 0.75);
-}
+    box-shadow: -1px 1px 10px 7px rgba(103, 37, 165, 0.3);
+  }

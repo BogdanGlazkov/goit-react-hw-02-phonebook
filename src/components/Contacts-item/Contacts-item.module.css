@@ -1,9 +1,10 @@
 .item {
     height: 40px;
     display: flex;
+    align-items: flex-start;
     margin-bottom: 15px;
-    border-bottom: 1px solid gray;
-    transition: transform 500ms ease-in-out;
+    border-bottom: 1px solid var(--secondary-text-color);
+    transition: transform var(--transition);
 }
 
 .focus {
@@ -11,11 +12,9 @@
 }
 
 .name {
-    font-weight: bold;
-    min-width: 50%;
-    margin-right: 10px;
+    min-width: 30%;
 }
 
-.contact-num {
+.num {
     margin-left: 10px;
 }

@@ -16,8 +16,8 @@ export default class ContactsItem extends Component {
         onMouseOver={this.onItemHover}
         className={s.item}
       >
-        <span className="{s.name}">{name}:</span>
-        <span className="contact-num">{number}</span>
+        <span className={s.name}>{name}:</span>
+        <span className={s.num}>{number}</span>
         <Button dlt type="button" onClickHandler={deleteHandler}>
           Delete
         </Button>
